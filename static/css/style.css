@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'BitstreamVeraSansMonoRoman';
+    src: url('fonts/VeraMono-webfont.eot');
+    src: url('fonts/VeraMono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/VeraMono-webfont.woff') format('woff'),
+         url('fonts/VeraMono-webfont.ttf') format('truetype'),
+         url('fonts/VeraMono-webfont.svg#BitstreamVeraSansMonoRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoudyStM';
+    src: url('fonts/GoudyStM-webfont.eot');
+    src: url('fonts/GoudyStM-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GoudyStM-webfont.woff') format('woff'),
+         url('fonts/GoudyStM-webfont.ttf') format('truetype'),
+         url('fonts/GoudyStM-webfont.svg#GoudyStM') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoudyStM';
+    src: url('fonts/GoudyStM-Italic-webfont.eot');
+    src: url('fonts/GoudyStM-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GoudyStM-Italic-webfont.woff') format('woff'),
+         url('fonts/GoudyStM-Italic-webfont.ttf') format('truetype'),
+         url('fonts/GoudyStM-Italic-webfont.svg#GoudyStM') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Junction';
+    src: url('fonts/Junction-webfont.eot');
+    src: url('fonts/Junction-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Junction-webfont.woff') format('woff'),
+         url('fonts/Junction-webfont.ttf') format('truetype'),
+         url('fonts/Junction-webfont.svg#Junction') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #cccccc;
+    font: normal normal 16px/60px 'Junction', serif;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-top: 100px;
+}
+
+header a {
+  color: #cccccc;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #a02c2c;
+}
+
+header h1 {
+    display: inline;
+    font-size: 36px;
+    vertical-align: -6px;
+}
+
+header h1 a {
+    color: #a02c2c;
+}
+
+header#post {
+  font-size: 10px;
+  margin-top: 0;
+}
+
+header#post h1 {
+    font-size: 24px;
+    vertical-align: -4px;
+}
+
+header#post a {
+    color: #cccccc;
+}
+
+header#post a:hover {
+    color: #a02c2c;
+}
+
+section {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font: 18px 'GoudyStM',  Palatino, Georgia, serif;
+}
+
+.date {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+}
+
+article h1, article h2, article h3 {
+    font-family: "Junction", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+article h2 {
+    border-bottom: 1px solid #cccccc;
+}
+
+a {
+    color: #a02c2c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code,
+pre {
+  font: 12px 'BitstreamVeraSansMonoRoman', Menlo, Monaco, Consolas, monospace;
+  color: #333333;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+}
+
+code {
+  padding: 2px 4px;
+}
+
+pre {
+  padding: 8px;
+  line-height: 1.75em;
+}
+
+pre code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+}
+
+figcaption {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 50%;
+    padding-top: 4px;
+    border-top: 1px solid #cccccc;;
+    font-style: italic;
+}
+
+ol {
+    padding-left: 0;
+}
+
+hr {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+.footnotes {
+    font-size: 14px;
+}
+
+.footnotes code {
+    font-size: 10px;
+    padding: 1px 2px;
+}
+
+.footnotes ol li {
+  margin: 1em 0;
+}
+
+sup.footnote-ref {
+  font-size: inherit;
+  top: 0;
+}
+
+sup.footnote-ref:before {
+  content: "[";
+  color: #a02c2c;
+}
+
+sup.footnote-ref:after {
+  content: "]";
+  color: #a02c2c;
+}
+
+
+ul#posts {
+  display:inline;
+  list-style: none;
+  font: 20px 'GoudyStM', Palantino, Georgia, serif;
+}
+
+ul#posts li .date-time {
+  display: inline-block;
+  width: 200px;
+}
+

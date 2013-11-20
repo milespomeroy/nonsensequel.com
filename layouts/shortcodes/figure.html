@@ -1,0 +1,4 @@
+<figure>
+  <img src="{{index .Params "src"}}" alt="{{if isset .Params "alt"}}{{index .Params "alt"}}{{else}}{{index .Params "caption"}}{{end}}">
+  <figcaption>{{index .Params "caption"}}</figcaption>
+</figure>

@@ -1,0 +1,8 @@
+---
+title: "nonsensequel"
+baseurl: 'http://nonsensequel.com'
+contentdir: "content"
+staticdir: "static"
+layoutdir: "layouts"
+publishdir: "public"
+...

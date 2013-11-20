@@ -1,0 +1,9 @@
+{{ template "chrome/header.html" . }}
+<section>
+  <ul id="posts">
+  {{ range .Data.Pages }}
+      {{ .Render "li" }}
+  {{ end }}
+  </ul>
+</section>
+{{ template "chrome/footer.html" . }}

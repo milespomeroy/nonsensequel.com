@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Miles Pomeroy">
+    <link href="/favicon.ico" rel="icon">
+
+    <title>{{if .Data }}nonsensequel{{else}}{{ .Title }} — nonsensequel{{end}}</title>
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" href="/index.xml">
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml">
+    <link rel="canonical" href="{{ .Permalink }}">
+  </head>
+  <body>
+    <header {{if .Data }}{{else}}id="post"{{end}}>
+      <h1>
+        <a href="{{ .Site.BaseUrl }}">nonsensequel</a>
+      </h1> Writings of <a href="http://milespomeroy.com">Miles Pomeroy</a>.
+    </header>
+

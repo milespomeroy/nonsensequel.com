@@ -1,0 +1,9 @@
+<article>
+    <h2><a href='{{ .Permalink }}'>{{ .Title }}</a></h2>
+     <p>{{ .Summary }}</p>
+    {{ template "shortcodes/datetime.html" . }}
+    <footer>
+      <a href='{{ .Permalink }}'><nobr>Read more <i class="icon-long-arrow-right"></i></nobr></a>
+    </footer>
+  </div>
+</article>
